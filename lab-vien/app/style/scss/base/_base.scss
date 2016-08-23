@@ -14,3 +14,13 @@ body {
 hr {
   border-top: 1px solid #8c8b8b;
 }
+
+a, a:hover {
+  color: $app-textColor;
+  text-decoration: none;
+}
+
+main {
+  color: $app-textColor;
+  font-size: 1em;
+}

@@ -1,0 +1,21 @@
+.figure {
+  .figure-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .figure-caption {
+    font-weight: 200;
+
+    a:hover {
+      .title {
+        color: $app-textColor;
+      }
+    }
+
+    .quote {
+      margin: 1.75em 0 .5em 0;
+      font-style: italic;
+    }
+  }
+}
