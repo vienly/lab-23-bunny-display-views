@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <!--bootstrap tip - to center set an offset equal to half of the remaining size of the row-->
+    <div class="col-xs-3" ng-repeat="img in thumbnailCtrl.images">
+      <a href="#/fullsize/{{img.id}}" class="thumbnail">
+        <img class="img-thumbnail" ng-src="{{img.url}}" />
+      </a>
+    </div>
+  </div>
+</div>
